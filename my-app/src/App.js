@@ -28,7 +28,7 @@ function App() {
       <li>Contact Us</li>
     </nav>
     <div className="hsColour">
-      <h1>Abhinav Rawat</h1>
+      <h1>Welcome to the Chitkara University</h1>
     </div>
     </>
   );
