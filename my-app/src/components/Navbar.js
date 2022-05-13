@@ -14,7 +14,7 @@ export default function Navbar(props) {
             <a className="nav-link active" aria-current="page" href="https://www.youtube.com/">Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Link</a>
+            <a className="nav-link" href="#">{props.abouttxt}</a>
           </li>
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
