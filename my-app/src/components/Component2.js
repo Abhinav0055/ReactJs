@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function Component2() {
+export default function Component2(props) {
   const [text, setText] = useState("In CU,hello guys the text will be converted on clicking !");
   const handleOnClick = () => {
     //console.log("you clicked on the button");
@@ -63,7 +63,7 @@ export default function Component2() {
 
   return (
     <>
-    <div className='container my-3'>
+    <div className='container my-4'>
       <div>
         <textarea className="form-control my-3" id="txtbox" rows="10" onChange={handleOnChange} value={text}></textarea><br></br>
         <button className="btn btn-primary mx-2" onClick={handleOnClick}>Change</button>
