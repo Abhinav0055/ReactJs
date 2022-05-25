@@ -36,7 +36,7 @@ function App() {
       </header>
     </div>*/
     <>
-      <Navbar title="Chandigarh University" abouttxt="About CU" mode={mode} toggleMode={toggleMode} />
+      <Navbar title="Chandigarh University" abouttxt="About CU" mode={mode} setmode={setmode} toggleMode={toggleMode}/>
       <Component2/>
     </>
 
