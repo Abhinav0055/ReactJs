@@ -38,7 +38,7 @@ function App() {
     <>
       <Navbar title="Chandigarh University" abouttxt="About CU" mode={mode} setmode={setmode} toggleMode={toggleMode}/>
       <Component2/>
-    </>
+      </>
 
   );
 }
