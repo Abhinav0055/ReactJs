@@ -7,20 +7,23 @@ export default class Students extends Component {
           hasChanged: false
       }
   }
-  increment = (event) => {
+  total = (event) => {
       this.setState({ hasChanged: true})
-      this.props.increment(this.props.name)
+      this.props.total(this.props.name)
   }
     render() {
     return (
         <div className='container my-3'>
             <div className='Students'>
-                <h2>{this.props.name}</h2>
-                <h3>{this.props.marks}</h3>
-                <button className="btn btn-primary mx-3" onClick={this.increment}>Add</button>
-                {this.state.hasChanged && (
+                <h2>Name: {this.props.name}</h2>
+                <h3>Rollno: {this.props.rno}</h3>
+                <h3>ST1 Marks: {this.props.st1}</h3>
+                <h3>ST2 Marks: {this.props.st2}</h3>
+                <h3>Total: {this.props.Total}</h3>
+                <button onClick={this.total}>Total</button>
+                {/* {this.state.hasChanged && (
                     <span>Updated</span>
-                )}
+                )} */}
             </div>
         </div>
     )
